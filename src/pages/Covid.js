@@ -10,9 +10,9 @@ export default function About(props) {
   
   useEffect(() => {
     setRecentData([]);
-    let baseURL = `https://newsapi.org/v2/everything?q=covid&from=2019-01-02?country=in&apiKey=059fea3d670f4ab78a427e681105e7b1`;
+    let baseURL = `https://newsapi.org/v2/everything?q=covid&from=2019-01-02?country=in&apiKey=880c02949b8f451da7a67e8e52cbc37d`;
     if (search && search.name) {
-       baseURL = `https://newsapi.org/v2/everything?q=${search.name}&from=${search.date}?country=in&apiKey=059fea3d670f4ab78a427e681105e7b1`;
+       baseURL = `https://newsapi.org/v2/everything?q=${search.name}&from=${search.date}?country=in&apiKey=880c02949b8f451da7a67e8e52cbc37d`;
     }
     
     

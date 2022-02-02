@@ -18,7 +18,7 @@ export default function News() {
     // }sentences%3A%3C30%20language%3Aenglish%20site.country:IN%20published%3A%3C${search.date}`;
     let baseURL = `https://newsapi.org/v2/everything?q=${
       search.name ? `${search.name}` : `india`
-    }&from=${search.date}&apiKey=059fea3d670f4ab78a427e681105e7b1`;
+    }&from=${search.date}&apiKey=880c02949b8f451da7a67e8e52cbc37d`;
 
     async function fetchData() {
       setLoading(true);

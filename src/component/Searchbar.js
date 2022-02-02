@@ -23,7 +23,8 @@ const Searchbar = (props) => {
 
   async function fetchData(search = "") {
     if (search) {
-        let baseURL = `https://newsapi.org/v2/everything?q=` + search + `&apiKey=059fea3d670f4ab78a427e681105e7b1`;
+        let baseURL = `https://newsapi.org/v2/everything?q=` + search + 
+        `&apiKey=880c02949b8f451da7a67e8e52cbc37d`;
 
 
       setLoading(true);
